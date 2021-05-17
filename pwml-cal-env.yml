@@ -1,0 +1,41 @@
+name: pwml-cal-env
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - tensorflow-gpu
+  - tensorboard
+  - tensorflow-hub
+  - dask
+  - flask
+  - flask-cors
+  - flask-restful
+  - flask-wtf
+  - jupyter_contrib_nbextensions
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - pillow
+  - pip
+  - python
+  - scikit-image
+  - scikit-learn
+  - scikit-optimize
+  - scipy
+  - seaborn
+  - statsmodels
+  - plotly
+  - pymssql
+  - urllib3
+  - neptune-client
+  - optuna
+  - fbprophet
+  - jupyterlab
+  - ipywidgets
+  - pip:
+    - pwml
+    - neptune-contrib
+    - vscode-debugger-magic
+
